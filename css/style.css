@@ -7,6 +7,10 @@
 	
 }
 
+a, button {
+	cursor: url(../img/stick5.png), pointer;
+}
+
 html {
 	height: 100%
 
