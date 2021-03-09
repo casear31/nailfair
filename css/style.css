@@ -1,0 +1,582 @@
+@charset "utf-8";
+
+*{
+	margin: 0;
+	padding: 0;
+	outline: none;
+	
+}
+
+html {
+	height: 100%
+
+}
+
+body{
+	/* max-width: 1920px; */
+	/* width:auto; */
+	width: 100%;
+	height: 1900px;
+	background-color: #ffffff;
+	display: flex;
+	flex-direction: column;
+	justify-content:space-between;
+	align-items: center;
+}
+.center	{
+	width: 1100px;
+}
+
+
+.top-div {
+
+	display: flex;
+	justify-content: center;
+	height: 292px; 
+	/* width: auto; */
+	width: 100%;
+	color: #4c1e7f;
+	font-size: 24pt;
+	/* overflow: scroll; */
+
+}
+.top-div-left{
+	width:  424px;
+	height: 292px;
+	display: flex;
+	flex-direction: column;
+
+}
+.logo{
+	padding-top: 28px; 
+	padding-right: 67px/*13.45%*/;
+	cursor: url(/img/stick5.png), pointer;
+	/*357 119*/
+}
+#tel {
+	padding-top: 10px;
+	width: 191px;
+	height: 33px;
+	
+}
+
+.button-main {
+	margin-top: 20px;
+	color: #f8f6fc;
+	font-family: "A Timer 05";
+	font-size: 19px;
+	font-weight: bold; 
+	background-color:rgb(159,151,180); 
+	/* 23.5px*/
+	border-radius: 23.5px; 
+	height: 60px; 
+	width: 193px; 
+	/* 3.86 */
+	border-style: none;
+	transition: font-size 1s ease, border-radius 1s ease, width 1s ease, height	1s ease;
+	cursor: url(/img/stick5.png), pointer;
+}
+.button-main a{
+	text-decoration: none;
+	color: white; 
+	cursor: url(/img/stick5.png), pointer;
+}
+.button-main:hover{
+	height: 60px; 
+	width: 231px; 
+	border-radius: 33.5px;
+	font-size: 24px;
+}
+
+.center-top{
+	display: flex;
+	justify-content: space-between;
+}
+.top-div-right{
+	width: 676px;
+	height: 292px;
+}
+
+.navbar{
+	padding-top: 92px;
+
+	display: flex;	
+	justify-content: space-between;
+
+	width: 676px;
+	height: 24px;
+	color: #4c1e7f;
+	font-family: "Arial MT";
+	font-size: 24px;
+	font-weight: bold;
+	transition: font-size 1s ease;
+}
+
+.navbar a{
+	text-decoration: none;
+	color: #4c1e7f;
+	font-family: "Arial MT";
+	font-size: 24px;
+	font-weight: bold;
+	cursor: url(/img/stick5.png), pointer;
+}
+.navbar a:hover{
+	font-size: 26px;
+
+}
+
+
+
+
+
+#inst-top{
+	padding-top: 99px;
+	padding-left: 626px;
+
+}
+
+#inst-top img:hover{
+	width: 60px;
+	height: 60px;
+	cursor: url(/img/stick5.png), pointer;
+
+}
+.main-div {
+	height: 1280px;
+	/* width: 1920px; */
+	/* width: auto; */
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	background-image: url("/img/bckp.png");
+	background-repeat: no-repeat;
+	background-size: 100%, auto;
+}
+
+#welcome{
+	padding-top: 132px;
+	/* padding-left: 19px; */
+	content: 'kufjhdjgf';
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	/* width: 516px; */
+	width: 100%;
+	height: 137px;
+	color: #705193;
+	/* color: #544a95; */
+
+	font-family: "Arial MT";
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 48px;
+
+	/*font-family: "Arial MT";
+	font-size: 34px;
+	font-weight: bold;
+	line-height: 53.69px;*/
+
+	font-size: 30px;
+
+}
+
+#space-for-girl {
+	height: 67px;
+	width: 100%;
+	padding-top: 109px;
+	/* padding-left: 193px; */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+#space-for-girl p {
+	color: #705193;
+	font-family: "Arial MT";
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 48px;
+}
+#space_first_phrase{
+	display: inline;
+}
+#space_second_phrase{
+	display: inline;
+}
+
+#space-for-girl button {
+	border:1px solid #a191c2;
+	color: #4c1e7f;
+	font-family: "Arial MT";
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 48px;
+	background-color: #ffffff;
+	width: 67px;
+	height: 67px;
+	border-radius: 50%;
+	transition: font-size 1s ease, width 1s ease, height	1s ease;
+	
+	/* border-style: none; */
+}
+#space-for-girl button:hover{
+	width: 87px;
+	height: 87px;
+	font-size: 50px;
+}
+.orderofblocks{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.center-center{
+
+	width:100%;
+	/* height: 647px; */
+	display: flex;
+	justify-content: center; 
+	align-items: flex-end;
+}
+
+.center-vertical{
+	width:100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center; 
+}
+
+
+#why_we{
+	padding-top: 165px;
+	width: 100%;
+	height: 23px;
+	color: #4c1e7f;
+	font-family: "Arial MT";
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 48px;
+	display: flex;
+	justify-content: center;
+	
+}
+
+.box-of-circle{
+	padding-top: 20px;
+	width:746px;
+	height: 627px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.three-circles{
+	display: flex;
+	justify-content: space-around;
+}
+
+.three-circles-1 button{
+	color: #705193;
+	background: radial-gradient(#e8c4e9 30%, #efdaf0);
+	}
+
+.three-circles-2 button{
+	border: 1px solid #736991;
+	color: #fcfafe;
+	background: radial-gradient(#9179ac 30%, #c9bdd6);
+	}
+
+.three-circles-3 button{
+	border:1px solid #a191c2;
+	color: #705193;
+	background: radial-gradient(#e8c4e9 30%, #f0d9f1);
+	}
+
+.btn-circle{
+	padding-left:2%;
+	padding-right:2%;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	border: 1px solid #a494c4;
+	text-align: center;
+	font-family: "Arial MT";
+	font-size: 18px;
+	font-weight: bold;
+	transition: font-size 1s ease, width 1s ease, height 1s ease;
+}
+.btn-circle a{
+	text-decoration: none;
+	color: #fcfafe;
+}
+
+.btn-circle:hover{
+	width: 200px;
+	height: 200px;
+	font-size: 24px;
+	cursor: url(/img/stick5.png), pointer;
+}
+
+#clear{
+	clear: both;
+}
+
+.footer-div{
+	height: 327px;
+	width:100%;
+	/* width: auto; */
+	background-color: rgb(84,74,149);
+	display: flex;
+
+	justify-content: center;
+
+}
+
+.foot-navbar-box{
+	width:100%;
+	height: 18px;
+	display: flex;
+	justify-content: center;
+}
+.foot-navbar{
+	padding-top: 21px;
+	width: 485px;
+	height: 18px;
+	color: #9f97b4;
+	font-family: "Arial MT";
+	font-size: 18px;
+	font-weight: 400;
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.foot-navbar a{
+	color: #9f97b4;
+	font-family: "Arial MT";
+	font-size: 18px;
+	font-weight: 400;
+	text-decoration: none;
+	transition: font-size 1s ease, color 1s ease;
+	cursor: url(/img/stick5.png), pointer;
+}
+.foot-navbar a:hover{
+	color: #ffffff;
+	font-size: 24px;
+	cursor: url(/img/stick5.png), pointer;
+}
+.box-two-lines{
+	padding-top: 48px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	font-family: "Arial MT";
+	font-size: 18px;
+	font-weight: 400;
+}
+.studio-first{
+	text-align: left;
+	width: 33.3%;
+/* 182px */
+	height: 35px;
+	color: #9f97b4;
+}
+
+.studio-second{
+	width: 33.3%;
+	/* 340px */
+	height: 38px;
+	color: #f7f6fb;
+	text-align: center;
+	
+}
+
+
+.studio-third{
+	width: 33.3%;
+	/* 255px */
+	height: 37px;
+	color: #9f97b4;
+	text-align: right;
+}
+.tel-foot{
+	padding-top: 54px;
+	width: 100%;
+	height: 17px;
+	color: #9f97b4;
+	font-family: "Arial MT";
+	font-size: 18px;
+	font-weight: 400;
+	display: flex;
+	justify-content: center;
+	transition: font-size 1s ease, color 1s ease;
+}
+.tel-foot p:hover{
+	font-size: 24px;
+	color: #ffffff;
+
+}
+
+#instfoot{
+	padding-top: 50px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+#instfoot a{
+cursor: url(/img/stick5.png), pointer;
+}
+
+#instfoot img:hover{
+	width: 60px;
+	height: 60px;
+	cursor: url(/img/stick5.png), pointer;
+}
+
+/* css for Zapis'.html */
+
+.form-box{
+	padding: 75px;
+	background-color: silver;
+	width: 50%;
+	height: auto;
+	border: 1px #4c1e7f solid;
+	border-radius: 75px;
+	color: #705193;
+	font-family: "Arial MT";
+	font-size: 30px;
+	font-weight: bold;
+	display: flex;
+	flex-direction: column;
+}
+
+
+
+.form-box p{
+	width: 100%;
+	text-align: left;
+}
+.form-box input{
+	width: 100%;
+	text-align: left;
+	height: 35px;
+	font-size: 24px;
+	margin: 20px 0px 25px 0px;
+}
+.form-box input:hover{
+	outline: #4c1e7f solid;
+}
+
+#form-title{
+	width: 100%;
+	text-align: left;
+	font-style: italic;
+	height: 20px;
+	font-size: 20px;
+	margin: 0px 0px 15px 0px;
+}
+
+#form-checkbox {
+	display: flex;
+	align-content: space-between;
+	justify-content: space-between;
+}
+#form-checkbox p{
+	width: 40%;
+	background-color: #000;
+	/* justify-content: center;
+	align-content: space-around; */
+}
+
+#form-checkbox input{
+
+	width: 10px;
+	font-family: "Arial MT";
+	font-size: 10px;
+	font-weight: bold;
+	margin: 5px 0px 5px 5px;
+	vertical-align: middle;
+	/* display: flex;
+	justify-content: flex-start;
+	align-content: stretch; */
+}
+
+
+
+#form-message{
+	width: 100%;
+	min-height: 200px;
+	max-height: 400px;
+	overflow: scroll;
+	text-anchor: start;
+}
+
+/* .form-box select{
+
+} */
+
+form select{
+	width: 100%;
+	text-align: left;
+	height: 35px;
+	font-size: 24px;
+	margin: 20px 0px 25px 0px;
+
+}
+form textarea{
+
+	width: 100%;
+	height: 200px;
+	overflow-x: auto;
+	overflow: scroll;
+	font-family: "Arial MT";
+	font-size: 30px;
+}
+
+#picker{
+	width: 100%;
+	text-align: left;
+	height: 35px;
+	font-size: 24px;
+	margin: 20px 0px 25px 0px;
+}
+#button-form-send{
+	width: 100%;
+	height: 75px;
+	font-size: 40px;
+	transition: background-color 1s ease, color 1s ease;
+	background-color: rgb(139,141,160);
+	color: rgb(215, 215, 215)
+}
+
+#button-form-send:hover{
+	color: #f8f6fc;
+	background-color:rgb(159,151,180); 
+	cursor: url(/img/stick5.png), pointer;
+
+	/* background-color: rgb(84,74,149); */
+	/* background-color: #705193; */
+}
+
+table {
+	padding: 75px;
+	background-color: silver;
+	width: 50%;
+	height: auto;
+	border: 1px #4c1e7f solid;
+	border-radius: 75px;
+	color: #705193;
+	font-family: "Arial MT";
+	font-size: 30px;
+	font-weight: bold;
+	display: grid;
+	grid-template: auto;
+	flex-direction: column;
+}
